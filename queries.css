@@ -1,15 +1,92 @@
 @media (max-width: 1024px) {
-     
+    .head-bg__text1 {
+        font-size: 20px;
+    }
+
+    .head-bg__text2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .head-bg__text3 {
+        font-size: 15px;
+    }
+
+    .l-img-position {
+        top: 22%;
+        right: 36%;
+        height: 60%;
+    }
 }
+
+
 
 @media (max-width: 768px) {
+    .head-bg__text1 {
+        font-size: 16px;
+    }
+
+    .head-bg__text2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .l-img-position {
+        top: 16.5%;
+        right: 36.5%;
+        height: 45%;
+    }
+
+    .icon-text {
+        font-size: 13px;
+    }
     
 }
+
+
 
 @media (max-width: 480px) {
-    
+    .head-bg__text1 {
+        font-size: 15px;
+    }
+
+    .head-bg__text2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .head-bg__text3 {
+        font-size: 13px;
+    }
+
+    .btn-sm2 {
+        font-size: 13px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .l-img-position {
+        display: none;
+    }
+
+   
 }
 
+
+
 @media (max-width: 320px) {
-    
+    .head-bg__text1 {
+        font-size: 13px;
+    }
+
+    .head-bg-text2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .head-bg__text3 {
+        font-size: 10px;
+    }
+
+    .icon-text {
+        font-size: 10px;
+    }
 }

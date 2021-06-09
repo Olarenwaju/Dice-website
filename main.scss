@@ -32,7 +32,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 95vh;
 
     &__text1 {
         font-weight: 400;
@@ -40,29 +40,6 @@ body {
         color: #727272;
     }
 
-    @media (max-width: 1024px) {
-        &__text1 {
-            font-size: 20px;
-        }
-    }
-
-    @media (max-width: 768px) {
-        &__text1 {
-            font-size: 15px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        &__text1 {
-            font-size: 13px;
-        }
-    }
-
-    @media (max-width: 320px) {
-        &__text1 {
-            font-size: 13px;
-        }
-    }
 
     &__text2 {
         font-weight: 700;
@@ -71,60 +48,13 @@ body {
         font-family: 'Times New Roman';
     }
 
-    @media (max-width: 1024px) {
-        &__text2 {
-            font-size: 40px;
-            line-height: 60px;
-        }
-    }
-
-    @media (max-width: 768px) {
-        &__text2 {
-            font-size: 35px;
-            line-height: 50px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        &__text2 {
-            font-size: 23px;
-            line-height: 40px;
-        }
-    }
-
-    @media (max-width: 320px) {
-        &__text2 {
-            font-size: 18px;
-            line-height: 30px;
-        }
-    }
-
     &__text3 {
         font-size: 16px;
         color: #727272;
     }
 
-    @media (max-width: 1024px) {
-        &__text3 {
-            font-size: 13px;          
-        }
-    }
-
-    @media (max-width: 320px) {
-        &__text3 {
-            font-size: 10px;          
-        }
-    }
-
 }
 
-
-@media (max-width: 480px) {
-    .btn-sm2 {
-        font-size: 13px;
-        padding: 10px 20px 10px 20px;
-    }
-}
 
 .l-img-position {
     position: absolute;
@@ -132,46 +62,9 @@ body {
     right: 30.2%;
 }
 
-@media (max-width: 1024px) {
-    .l-img-position {
-        top: 22%;
-        right: 36%;
-        height: 60%;
-    }
-}
-
-@media (max-width: 768px) {
-    .l-img-position {
-        top: 16.5%;
-        right: 36.5%;
-        height: 45%;
-    }
-}
-
-@media (max-width: 480px) {
-    .l-img-position {
-        display: none;
-    }
-}
-
-
-
 
 .icon-text {
     font-size: 14px;
-}
-
-
-@media (max-width: 768px) {
-    .icon-text {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 320px) {
-    .icon-text {
-        font-size: 10px;
-    }
 }
 
 
