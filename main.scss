@@ -1,0 +1,324 @@
+$theme-colors: (
+  "primary": #fd9800,
+  "danger": #ff4136,
+  "dark": #000000,
+  "info": #727272,
+  "secondary": #0A0B0C,
+  "success": #f0efef,
+  "light": #faf9f9
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 800px,
+  lg: 960px,
+  xl: 1350px
+);  
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar .nav-item.active {
+    border-bottom: #fd9800 2px solid;
+}
+
+.head-bg {
+    background-image: url(resources/img/dice-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+    &__text1 {
+        font-weight: 400;
+        font-size: 24px;
+        color: #727272;
+    }
+
+    @media (max-width: 1024px) {
+        &__text1 {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__text1 {
+            font-size: 15px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        &__text1 {
+            font-size: 13px;
+        }
+    }
+
+    @media (max-width: 320px) {
+        &__text1 {
+            font-size: 13px;
+        }
+    }
+
+    &__text2 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 70px;
+        font-family: 'Times New Roman';
+    }
+
+    @media (max-width: 1024px) {
+        &__text2 {
+            font-size: 40px;
+            line-height: 60px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__text2 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        &__text2 {
+            font-size: 23px;
+            line-height: 40px;
+        }
+    }
+
+    @media (max-width: 320px) {
+        &__text2 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+
+    &__text3 {
+        font-size: 16px;
+        color: #727272;
+    }
+
+    @media (max-width: 1024px) {
+        &__text3 {
+            font-size: 13px;          
+        }
+    }
+
+    @media (max-width: 320px) {
+        &__text3 {
+            font-size: 10px;          
+        }
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .btn-sm2 {
+        font-size: 13px;
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+.l-img-position {
+    position: absolute;
+    top: 18%;
+    right: 30.2%;
+}
+
+@media (max-width: 1024px) {
+    .l-img-position {
+        top: 22%;
+        right: 36%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .l-img-position {
+        top: 16.5%;
+        right: 36.5%;
+        height: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .l-img-position {
+        display: none;
+    }
+}
+
+
+
+
+.icon-text {
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    .icon-text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .icon-text {
+        font-size: 10px;
+    }
+}
+
+
+.connect {
+    background-image: url(resources/img/connect-img.png);
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__icon {
+        border: 1px solid rgba(0, 0, 0, 0.048);
+        box-shadow:  0px 4px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-color: #fff;
+        width: 100%;
+        
+    }
+}
+
+.after-line::after {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/**------ Consulting Page --------------*/
+/*--------------------------------------*/
+
+.consulting {
+
+    &__box {
+        border-radius: 40px;
+
+        &__text {
+            font-size: 14px;
+        }
+    }
+}
+
+
+/**------ Blog Page --------------*/
+/*--------------------------------------*/
+
+.blog {
+
+    &__box {
+        padding-left: 100px;
+        padding-top: 80px;
+        padding-bottom: 110px;
+        
+       
+
+        &__headtext {
+            padding-bottom: 40px;
+        }
+    }
+    
+}
+
+/**------ Blog-Media Page --------------*/
+/*--------------------------------------*/
+
+.blog-media-text {
+    font-size: 16px;
+    color: #727272;
+    font-weight: 500;
+}
+
+
+
+/**------ Ebook Page --------------*/
+/*--------------------------------------*/
+
+.download {
+    position: relative;
+  
+}
+
+.image {
+    display: block;
+   
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .8s ease;
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 5px;
+}
+
+.download:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.ebook-text1 {
+    font-size: 14px;
+}
+
+.ebook-text2 {
+    font-size: 10px;
+}
+
+
+/**------ About Page --------------*/
+/*--------------------------------------*/
+
+.about-img-position2 {
+    position: absolute;
+    top: 22.3%;
+    left: 61.7%;
+}
+
+.about {
+    &__head-text {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    &__head-text2 {
+        font-size: 14px;
+        line-height: 24px;
+
+        &__sub {
+            font-weight: 600;
+        }
+    }
+}
+
+
