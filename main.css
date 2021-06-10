@@ -10851,7 +10851,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 95vh;
+  height: 100vh;
 }
 
 .head-bg__text1 {
@@ -10884,13 +10884,13 @@ body {
 
 .connect {
   background-image: url(resources/img/connect-img.png);
-  height: 95vh;
+  height: 98vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.connect__icon {
+.connect__box {
   border: 1px solid rgba(0, 0, 0, 0.048);
   -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
@@ -10915,7 +10915,7 @@ body {
   border-radius: 40px;
 }
 
-.consulting__box__text {
+.consulting__box__text2 {
   font-size: 14px;
 }
 
