@@ -23,9 +23,15 @@ body {
     overflow-x: hidden;
 }
 
+a.nav-link {
+    font-size: 14px;
+}
+
 .navbar .nav-item.active {
     border-bottom: #fd9800 2px solid;
 }
+
+
 
 .head-bg {
     background-image: url(resources/img/dice-img.png);
@@ -198,6 +204,7 @@ body {
     top: 22.3%;
     left: 61.7%;
 }
+
 
 .about {
     &__head-text {
