@@ -10843,11 +10843,16 @@ body {
 }
 
 a.nav-link {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .navbar .nav-item.active {
   border-bottom: #fd9800 2px solid;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.3rem solid #fff;
 }
 
 .head-bg {
@@ -11010,10 +11015,5 @@ a.nav-link {
 
 .about__head-text2__sub {
   font-weight: 600;
-}
-
-/* Cursor */
-.txt-type > .txt {
-  border-right: 0.2rem solid #fff;
 }
 /*# sourceMappingURL=main.css.map */

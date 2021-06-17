@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <title>Oyediran Babajide/ about</title>
     
         <link rel="stylesheet" href="main.css">
@@ -51,7 +52,7 @@
 
             <div class="">
                 <div class="text-center pt-5 mt-4">
-                    <img src="resources/img/about-img.png" class="img-fluid" alt="about-image">
+                    <img src="resources/img/about-img.png" class="img-fluid" data-aos="fade-right" alt="about-image">
                 </div>
     
                 <div class="text-center">
@@ -68,18 +69,18 @@
 
                     <div class="pt-5">
     
-                        <div class="text-dark about__head-text pb-3">
+                        <div class="text-dark about__head-text pb-3" data-aos="fade-right" data-aos-delay="50">
                             About Me
                         </div>
 
-                        <div class="text-muted about__head-text2"> 
+                        <div class="text-muted about__head-text2" data-aos="fade-right" data-aos-delay="80"> 
                             I am <span class="about__head-text2__sub"> Oyediran Babajide </span> Discover and support your favorite African
                             venture with ease. Get behind the veil and be a part of their success 
                             story. Discover and support your favorite African venture with ease. 
                             Get behind. 
                         </div>
 
-                        <div class="text-muted about__head-text2 py-5">
+                        <div class="text-muted about__head-text2 py-5" data-aos="fade-right" data-aos-delay="100">
                             Discover and support your favorite African venture with ease. Get 
                             behind the veil and be a part of their success story.Discover and 
                             support your favorite African venture with ease. Get behind Discover 
@@ -107,7 +108,7 @@
         <div class="container pt-5 pb-5">
             <div class="h4 text-dark text-center font-weight-bolder py-5">Connect With Me</div>
 
-            <div class="row my-4">
+            <div class="row my-4" data-aos="fade-up">
                 <div class="col-md-2">
 
                 </div>
@@ -141,7 +142,7 @@
                 </div>
             </div>
 
-            <div class="row my-4">
+            <div class="row my-4"  data-aos="fade-up" data-aos-delay="100">
                 <div class="col-md-2">
 
                 </div>
@@ -285,6 +286,13 @@
     </footer>
 
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000,
+        });
+    </script>
 
 
     <script
