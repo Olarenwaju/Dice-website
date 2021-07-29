@@ -35,7 +35,9 @@ a.nav-link {
 /* Cursor */
 .txt-type > .txt {
     border-right: 0.3rem solid #fff;
-  }
+}
+
+
 
 
 .head-bg {
@@ -123,32 +125,6 @@ a.nav-link {
 
 /**------ Blog Page --------------*/
 /*--------------------------------------*/
-
-
-.blog {
-
-    &__box {
-        padding-left: 100px;
-        padding-top: 80px;
-        padding-bottom: 110px;
-        
-       
-
-        &__headtext {
-            padding-bottom: 40px;
-        }
-    }
-    
-}
-
-/**------ Blog-Media Page --------------*/
-/*--------------------------------------*/
-
-.blog-media-text {
-    font-size: 16px;
-    color: #727272;
-    font-weight: 500;
-}
 
 
 
