@@ -57,18 +57,24 @@
                     <div class="text-white">
                         <div class="h5 font-weight-normal pb-4">Leave us a message</div>
 
-                        <form>
+                        <form action="https://formspree.io/f/mknkqrjl" method="POST" id="my-form" class="needs-validation" novalidate>
                             <div class="form-group">
-                            <label for="Name">Name</label>
-                            <input type="text" class="form-control bg-transparent" id="name" placeholder="Name">
+                                <label for="Full Name">Full Name</label>
+                                <input type="text" class="form-control bg-transparent text-white" id="fullName" placeholder="Full name" name="Full Name" required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please Fill out this field</div>
                             </div>
+
                             <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control bg-transparent" id="email1" placeholder="Email">
+                                <label for="Email">Email</label>
+                                <input type="email" class="form-control bg-transparent text-white" id="email1" placeholder="Email" name="Email" required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please Fill out this field</div>
                             </div>
+
                             <div class="form-group pt-2">
-                                <label for="message">Your Message</label>
-                                <textarea class="form-control bg-transparent" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="Message">Your Message</label>
+                                    <textarea class="form-control bg-transparent text-white" id="exampleFormControlTextarea1" name="Message" rows="3"></textarea>
                             </div>
                             
                             <button type="submit" class="btn btn-primary btn-block text-dark font-weight-bold py-2">Send</button>
@@ -169,6 +175,7 @@
 
 
 
+    <script src="main.js"></script>
 
 
 
